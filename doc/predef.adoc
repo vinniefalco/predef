@@ -16,6 +16,7 @@
 :predef_symbol: Symbol
 :predef_version: Version
 :predef_detection: pass:q[*detection*]
+:includedir: example$predef
 
 == Introduction
 
@@ -548,49 +549,49 @@ and "Y", "M", "D" for dates.
 
 :leveloffset: +3
 
-include::../include/boost/predef/architecture/alpha.h[tag=reference]
+include::{includedir}/architecture/alpha.h[tag=reference]
 
-include::../include/boost/predef/architecture/arm.h[tag=reference]
+include::{includedir}/architecture/arm.h[tag=reference]
 
-include::../include/boost/predef/architecture/blackfin.h[tag=reference]
+include::{includedir}/architecture/blackfin.h[tag=reference]
 
-include::../include/boost/predef/architecture/convex.h[tag=reference]
+include::{includedir}/architecture/convex.h[tag=reference]
 
-include::../include/boost/predef/architecture/e2k.h[tag=reference]
+include::{includedir}/architecture/e2k.h[tag=reference]
 
-include::../include/boost/predef/architecture/ia64.h[tag=reference]
+include::{includedir}/architecture/ia64.h[tag=reference]
 
-include::../include/boost/predef/architecture/m68k.h[tag=reference]
+include::{includedir}/architecture/m68k.h[tag=reference]
 
-include::../include/boost/predef/architecture/mips.h[tag=reference]
+include::{includedir}/architecture/mips.h[tag=reference]
 
-include::../include/boost/predef/architecture/parisc.h[tag=reference]
+include::{includedir}/architecture/parisc.h[tag=reference]
 
-include::../include/boost/predef/architecture/ppc.h[tag=reference]
+include::{includedir}/architecture/ppc.h[tag=reference]
 
-include::../include/boost/predef/architecture/ptx.h[tag=reference]
+include::{includedir}/architecture/ptx.h[tag=reference]
 
-include::../include/boost/predef/architecture/pyramid.h[tag=reference]
+include::{includedir}/architecture/pyramid.h[tag=reference]
 
-include::../include/boost/predef/architecture/riscv.h[tag=reference]
+include::{includedir}/architecture/riscv.h[tag=reference]
 
-include::../include/boost/predef/architecture/rs6k.h[tag=reference]
+include::{includedir}/architecture/rs6k.h[tag=reference]
 
-include::../include/boost/predef/architecture/sparc.h[tag=reference]
+include::{includedir}/architecture/sparc.h[tag=reference]
 
-include::../include/boost/predef/architecture/superh.h[tag=reference]
+include::{includedir}/architecture/superh.h[tag=reference]
 
-include::../include/boost/predef/architecture/sys370.h[tag=reference]
+include::{includedir}/architecture/sys370.h[tag=reference]
 
-include::../include/boost/predef/architecture/sys390.h[tag=reference]
+include::{includedir}/architecture/sys390.h[tag=reference]
 
-include::../include/boost/predef/architecture/x86.h[tag=reference]
+include::{includedir}/architecture/x86.h[tag=reference]
 
-include::../include/boost/predef/architecture/z.h[tag=reference]
+include::{includedir}/architecture/z.h[tag=reference]
 
-include::../include/boost/predef/architecture/x86/32.h[tag=reference]
+include::{includedir}/architecture/x86/32.h[tag=reference]
 
-include::../include/boost/predef/architecture/x86/64.h[tag=reference]
+include::{includedir}/architecture/x86/64.h[tag=reference]
 
 :leveloffset: -3
 
@@ -598,65 +599,65 @@ include::../include/boost/predef/architecture/x86/64.h[tag=reference]
 
 :leveloffset: +3
 
-include::../include/boost/predef/compiler/borland.h[tag=reference]
+include::{includedir}/compiler/borland.h[tag=reference]
 
-include::../include/boost/predef/compiler/clang.h[tag=reference]
+include::{includedir}/compiler/clang.h[tag=reference]
 
-include::../include/boost/predef/compiler/comeau.h[tag=reference]
+include::{includedir}/compiler/comeau.h[tag=reference]
 
-include::../include/boost/predef/compiler/compaq.h[tag=reference]
+include::{includedir}/compiler/compaq.h[tag=reference]
 
-include::../include/boost/predef/compiler/diab.h[tag=reference]
+include::{includedir}/compiler/diab.h[tag=reference]
 
-include::../include/boost/predef/compiler/digitalmars.h[tag=reference]
+include::{includedir}/compiler/digitalmars.h[tag=reference]
 
-include::../include/boost/predef/compiler/dignus.h[tag=reference]
+include::{includedir}/compiler/dignus.h[tag=reference]
 
-include::../include/boost/predef/compiler/edg.h[tag=reference]
+include::{includedir}/compiler/edg.h[tag=reference]
 
-include::../include/boost/predef/compiler/ekopath.h[tag=reference]
+include::{includedir}/compiler/ekopath.h[tag=reference]
 
-include::../include/boost/predef/compiler/gcc.h[tag=reference]
+include::{includedir}/compiler/gcc.h[tag=reference]
 
-include::../include/boost/predef/compiler/gcc_xml.h[tag=reference]
+include::{includedir}/compiler/gcc_xml.h[tag=reference]
 
-include::../include/boost/predef/compiler/greenhills.h[tag=reference]
+include::{includedir}/compiler/greenhills.h[tag=reference]
 
-include::../include/boost/predef/compiler/hp_acc.h[tag=reference]
+include::{includedir}/compiler/hp_acc.h[tag=reference]
 
-include::../include/boost/predef/compiler/iar.h[tag=reference]
+include::{includedir}/compiler/iar.h[tag=reference]
 
-include::../include/boost/predef/compiler/ibm.h[tag=reference]
+include::{includedir}/compiler/ibm.h[tag=reference]
 
-include::../include/boost/predef/compiler/intel.h[tag=reference]
+include::{includedir}/compiler/intel.h[tag=reference]
 
-include::../include/boost/predef/compiler/kai.h[tag=reference]
+include::{includedir}/compiler/kai.h[tag=reference]
 
-include::../include/boost/predef/compiler/llvm.h[tag=reference]
+include::{includedir}/compiler/llvm.h[tag=reference]
 
-include::../include/boost/predef/compiler/metaware.h[tag=reference]
+include::{includedir}/compiler/metaware.h[tag=reference]
 
-include::../include/boost/predef/compiler/metrowerks.h[tag=reference]
+include::{includedir}/compiler/metrowerks.h[tag=reference]
 
-include::../include/boost/predef/compiler/microtec.h[tag=reference]
+include::{includedir}/compiler/microtec.h[tag=reference]
 
-include::../include/boost/predef/compiler/mpw.h[tag=reference]
+include::{includedir}/compiler/mpw.h[tag=reference]
 
-include::../include/boost/predef/compiler/nvcc.h[tag=reference]
+include::{includedir}/compiler/nvcc.h[tag=reference]
 
-include::../include/boost/predef/compiler/palm.h[tag=reference]
+include::{includedir}/compiler/palm.h[tag=reference]
 
-include::../include/boost/predef/compiler/pgi.h[tag=reference]
+include::{includedir}/compiler/pgi.h[tag=reference]
 
-include::../include/boost/predef/compiler/sgi_mipspro.h[tag=reference]
+include::{includedir}/compiler/sgi_mipspro.h[tag=reference]
 
-include::../include/boost/predef/compiler/sunpro.h[tag=reference]
+include::{includedir}/compiler/sunpro.h[tag=reference]
 
-include::../include/boost/predef/compiler/tendra.h[tag=reference]
+include::{includedir}/compiler/tendra.h[tag=reference]
 
-include::../include/boost/predef/compiler/visualc.h[tag=reference]
+include::{includedir}/compiler/visualc.h[tag=reference]
 
-include::../include/boost/predef/compiler/watcom.h[tag=reference]
+include::{includedir}/compiler/watcom.h[tag=reference]
 
 :leveloffset: -3
 
@@ -664,13 +665,13 @@ include::../include/boost/predef/compiler/watcom.h[tag=reference]
 
 :leveloffset: +3
 
-include::../include/boost/predef/language/cuda.h[tag=reference]
+include::{includedir}/language/cuda.h[tag=reference]
 
-include::../include/boost/predef/language/objc.h[tag=reference]
+include::{includedir}/language/objc.h[tag=reference]
 
-include::../include/boost/predef/language/stdc.h[tag=reference]
+include::{includedir}/language/stdc.h[tag=reference]
 
-include::../include/boost/predef/language/stdcpp.h[tag=reference]
+include::{includedir}/language/stdcpp.h[tag=reference]
 
 :leveloffset: -3
 
@@ -678,35 +679,35 @@ include::../include/boost/predef/language/stdcpp.h[tag=reference]
 
 :leveloffset: +3
 
-include::../include/boost/predef/library/c/cloudabi.h[tag=reference]
+include::{includedir}/library/c/cloudabi.h[tag=reference]
 
-include::../include/boost/predef/library/c/gnu.h[tag=reference]
+include::{includedir}/library/c/gnu.h[tag=reference]
 
-include::../include/boost/predef/library/c/uc.h[tag=reference]
+include::{includedir}/library/c/uc.h[tag=reference]
 
-include::../include/boost/predef/library/c/vms.h[tag=reference]
+include::{includedir}/library/c/vms.h[tag=reference]
 
-include::../include/boost/predef/library/c/zos.h[tag=reference]
+include::{includedir}/library/c/zos.h[tag=reference]
 
-include::../include/boost/predef/library/std/cxx.h[tag=reference]
+include::{includedir}/library/std/cxx.h[tag=reference]
 
-include::../include/boost/predef/library/std/dinkumware.h[tag=reference]
+include::{includedir}/library/std/dinkumware.h[tag=reference]
 
-include::../include/boost/predef/library/std/libcomo.h[tag=reference]
+include::{includedir}/library/std/libcomo.h[tag=reference]
 
-include::../include/boost/predef/library/std/modena.h[tag=reference]
+include::{includedir}/library/std/modena.h[tag=reference]
 
-include::../include/boost/predef/library/std/msl.h[tag=reference]
+include::{includedir}/library/std/msl.h[tag=reference]
 
-include::../include/boost/predef/library/std/roguewave.h[tag=reference]
+include::{includedir}/library/std/roguewave.h[tag=reference]
 
-include::../include/boost/predef/library/std/sgi.h[tag=reference]
+include::{includedir}/library/std/sgi.h[tag=reference]
 
-include::../include/boost/predef/library/std/stdcpp3.h[tag=reference]
+include::{includedir}/library/std/stdcpp3.h[tag=reference]
 
-include::../include/boost/predef/library/std/stlport.h[tag=reference]
+include::{includedir}/library/std/stlport.h[tag=reference]
 
-include::../include/boost/predef/library/std/vacpp.h[tag=reference]
+include::{includedir}/library/std/vacpp.h[tag=reference]
 
 :leveloffset: -3
 
@@ -714,49 +715,49 @@ include::../include/boost/predef/library/std/vacpp.h[tag=reference]
 
 :leveloffset: +3
 
-include::../include/boost/predef/os/aix.h[tag=reference]
+include::{includedir}/os/aix.h[tag=reference]
 
-include::../include/boost/predef/os/amigaos.h[tag=reference]
+include::{includedir}/os/amigaos.h[tag=reference]
 
-include::../include/boost/predef/os/beos.h[tag=reference]
+include::{includedir}/os/beos.h[tag=reference]
 
-include::../include/boost/predef/os/bsd.h[tag=reference]
+include::{includedir}/os/bsd.h[tag=reference]
 
-include::../include/boost/predef/os/cygwin.h[tag=reference]
+include::{includedir}/os/cygwin.h[tag=reference]
 
-include::../include/boost/predef/os/haiku.h[tag=reference]
+include::{includedir}/os/haiku.h[tag=reference]
 
-include::../include/boost/predef/os/hpux.h[tag=reference]
+include::{includedir}/os/hpux.h[tag=reference]
 
-include::../include/boost/predef/os/ios.h[tag=reference]
+include::{includedir}/os/ios.h[tag=reference]
 
-include::../include/boost/predef/os/irix.h[tag=reference]
+include::{includedir}/os/irix.h[tag=reference]
 
-include::../include/boost/predef/os/linux.h[tag=reference]
+include::{includedir}/os/linux.h[tag=reference]
 
-include::../include/boost/predef/os/macos.h[tag=reference]
+include::{includedir}/os/macos.h[tag=reference]
 
-include::../include/boost/predef/os/os400.h[tag=reference]
+include::{includedir}/os/os400.h[tag=reference]
 
-include::../include/boost/predef/os/qnxnto.h[tag=reference]
+include::{includedir}/os/qnxnto.h[tag=reference]
 
-include::../include/boost/predef/os/solaris.h[tag=reference]
+include::{includedir}/os/solaris.h[tag=reference]
 
-include::../include/boost/predef/os/unix.h[tag=reference]
+include::{includedir}/os/unix.h[tag=reference]
 
-include::../include/boost/predef/os/vms.h[tag=reference]
+include::{includedir}/os/vms.h[tag=reference]
 
-include::../include/boost/predef/os/windows.h[tag=reference]
+include::{includedir}/os/windows.h[tag=reference]
 
-include::../include/boost/predef/os/bsd/bsdi.h[tag=reference]
+include::{includedir}/os/bsd/bsdi.h[tag=reference]
 
-include::../include/boost/predef/os/bsd/dragonfly.h[tag=reference]
+include::{includedir}/os/bsd/dragonfly.h[tag=reference]
 
-include::../include/boost/predef/os/bsd/free.h[tag=reference]
+include::{includedir}/os/bsd/free.h[tag=reference]
 
-include::../include/boost/predef/os/bsd/net.h[tag=reference]
+include::{includedir}/os/bsd/net.h[tag=reference]
 
-include::../include/boost/predef/os/bsd/open.h[tag=reference]
+include::{includedir}/os/bsd/open.h[tag=reference]
 
 :leveloffset: -3
 
@@ -764,31 +765,31 @@ include::../include/boost/predef/os/bsd/open.h[tag=reference]
 
 :leveloffset: +3
 
-include::../include/boost/predef/platform/android.h[tag=reference]
+include::{includedir}/platform/android.h[tag=reference]
 
-include::../include/boost/predef/platform/cloudabi.h[tag=reference]
+include::{includedir}/platform/cloudabi.h[tag=reference]
 
-include::../include/boost/predef/platform/ios.h[tag=reference]
+include::{includedir}/platform/ios.h[tag=reference]
 
-include::../include/boost/predef/platform/mingw.h[tag=reference]
+include::{includedir}/platform/mingw.h[tag=reference]
 
-include::../include/boost/predef/platform/mingw32.h[tag=reference]
+include::{includedir}/platform/mingw32.h[tag=reference]
 
-include::../include/boost/predef/platform/mingw64.h[tag=reference]
+include::{includedir}/platform/mingw64.h[tag=reference]
 
-include::../include/boost/predef/platform/windows_desktop.h[tag=reference]
+include::{includedir}/platform/windows_desktop.h[tag=reference]
 
-include::../include/boost/predef/platform/windows_phone.h[tag=reference]
+include::{includedir}/platform/windows_phone.h[tag=reference]
 
-include::../include/boost/predef/platform/windows_runtime.h[tag=reference]
+include::{includedir}/platform/windows_runtime.h[tag=reference]
 
-include::../include/boost/predef/platform/windows_server.h[tag=reference]
+include::{includedir}/platform/windows_server.h[tag=reference]
 
-include::../include/boost/predef/platform/windows_store.h[tag=reference]
+include::{includedir}/platform/windows_store.h[tag=reference]
 
-include::../include/boost/predef/platform/windows_system.h[tag=reference]
+include::{includedir}/platform/windows_system.h[tag=reference]
 
-include::../include/boost/predef/platform/windows_uwp.h[tag=reference]
+include::{includedir}/platform/windows_uwp.h[tag=reference]
 
 :leveloffset: -3
 
@@ -796,23 +797,23 @@ include::../include/boost/predef/platform/windows_uwp.h[tag=reference]
 
 :leveloffset: +3
 
-include::../include/boost/predef/hardware/simd.h[tag=reference]
+include::{includedir}/hardware/simd.h[tag=reference]
 
-include::../include/boost/predef/hardware/simd/arm.h[tag=reference]
+include::{includedir}/hardware/simd/arm.h[tag=reference]
 
-include::../include/boost/predef/hardware/simd/arm/versions.h[tag=reference]
+include::{includedir}/hardware/simd/arm/versions.h[tag=reference]
 
-include::../include/boost/predef/hardware/simd/ppc.h[tag=reference]
+include::{includedir}/hardware/simd/ppc.h[tag=reference]
 
-include::../include/boost/predef/hardware/simd/ppc/versions.h[tag=reference]
+include::{includedir}/hardware/simd/ppc/versions.h[tag=reference]
 
-include::../include/boost/predef/hardware/simd/x86.h[tag=reference]
+include::{includedir}/hardware/simd/x86.h[tag=reference]
 
-include::../include/boost/predef/hardware/simd/x86/versions.h[tag=reference]
+include::{includedir}/hardware/simd/x86/versions.h[tag=reference]
 
-include::../include/boost/predef/hardware/simd/x86_amd.h[tag=reference]
+include::{includedir}/hardware/simd/x86_amd.h[tag=reference]
 
-include::../include/boost/predef/hardware/simd/x86_amd/versions.h[tag=reference]
+include::{includedir}/hardware/simd/x86_amd/versions.h[tag=reference]
 
 :leveloffset: -3
 
@@ -820,11 +821,11 @@ include::../include/boost/predef/hardware/simd/x86_amd/versions.h[tag=reference]
 
 :leveloffset: +3
 
-include::../include/boost/predef/other/endian.h[tag=reference]
+include::{includedir}/other/endian.h[tag=reference]
 
-include::../include/boost/predef/other/wordsize.h[tag=reference]
+include::{includedir}/other/wordsize.h[tag=reference]
 
-include::../include/boost/predef/other/workaround.h[tag=reference]
+include::{includedir}/other/workaround.h[tag=reference]
 
 :leveloffset: -3
 
@@ -832,9 +833,9 @@ include::../include/boost/predef/other/workaround.h[tag=reference]
 
 :leveloffset: +3
 
-include::../include/boost/predef/version_number.h[tag=reference]
+include::{includedir}/version_number.h[tag=reference]
 
-include::../include/boost/predef/make.h[tag=reference]
+include::{includedir}/make.h[tag=reference]
 
 :leveloffset: -3
 
@@ -973,9 +974,9 @@ expressions. It defaults to "c++", but can be any of: "c", "cpp",
 
 :leveloffset: +1
 
-include::history.adoc[]
+include::example$history.adoc[]
 
-include::todo.adoc[]
+include::example$todo.adoc[]
 
 :leveloffset: -1
 
